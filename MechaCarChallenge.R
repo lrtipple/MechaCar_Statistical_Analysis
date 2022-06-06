@@ -24,4 +24,13 @@ lot_summary <- mecha_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mea
                                                                                        Median=median(PSI),
                                                                                        Variance=var(PSI),
                                                                                        SD=sd(PSI), .groups = 'keep')
-                                      
+
+# Deliverable 3
+# t-test for all lots
+t.test(mecha_coil$PSI,mu=mean(mecha_coil$PSI))
+#t-test for lot 1
+t.test(subset(mecha_coil$PSI, mecha_coil$Manufacturing_Lot== "Lot1"), mu=mean(mecha_coil$PSI))
+#t-test for lot 2
+t.test(subset(mecha_coil$PSI, mecha_coil$Manufacturing_Lot== "Lot2"), mu=mean(mecha_coil$PSI))
+#t-test for lot 3
+t.test(subset(mecha_coil$PSI, mecha_coil$Manufacturing_Lot== "Lot3"), mu=mean(mecha_coil$PSI))
