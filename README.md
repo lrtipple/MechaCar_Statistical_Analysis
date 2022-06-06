@@ -13,23 +13,33 @@ According to the linear model, vehicle length and ground clearance provide a non
 
 ## Summary Statistics on Suspension Coils
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
 ![total summary_coil](https://user-images.githubusercontent.com/99093289/172078447-e6a0f88b-d531-494b-a9f6-b94eda2a9d42.PNG)
+
 ![lot_sumary](https://user-images.githubusercontent.com/99093289/172078629-a0caf9dc-65fb-412f-a3e6-966f686787b8.PNG)
+
 According to the total summary, the variance of the suspension coils is less than 100 pounds per square inch, but when we look at the individual lots, we can see that lot 3 has a variance of 170. This does not meet the design specification on the individual lot. 
 
 ## T-Tests on Suspension Coils
 These tests were used to determine if the PSI is statistically different from the population mean of 1500 pounds per square inch. 
 ### All manufacturing lots
 The p-value is 1 and is significant. The null hypothesis can be accepted.
+
 ![all lots t-test](https://user-images.githubusercontent.com/99093289/172079590-c8f96b51-287c-4077-a65d-98ecbc4146cd.PNG)
+
 ### Lot 1
 The p-value is 1.568e-11 and is greater than .05. The null hypothesis can be accepted.
+
 ![lot 1 ttest](https://user-images.githubusercontent.com/99093289/172079703-17ba6455-0b18-4cdc-9449-d732ee5ca438.PNG)
+
 ### Lot 2
 The p-value is .0005911 and is not significant. The null hypothesis can be rejected. 
+
 ![lot 2 ttest](https://user-images.githubusercontent.com/99093289/172079768-b556dc44-896a-43dc-923f-16d7e5532abb.PNG)
+
 ### Lot 3
 The p-value is .1589 and is significant. The null hypothesis can be accepted. 
+
 ![lot 3 ttest](https://user-images.githubusercontent.com/99093289/172079822-ef58fffb-a751-49ad-83fe-273ed3675931.PNG)
 
 ## Study Design: MechaCar vs Competition
