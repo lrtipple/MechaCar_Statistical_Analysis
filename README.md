@@ -28,19 +28,20 @@ The p-value is 1 and is significant. The null hypothesis can be accepted.
 ![all lots t-test](https://user-images.githubusercontent.com/99093289/172079590-c8f96b51-287c-4077-a65d-98ecbc4146cd.PNG)
 
 ### Lot 1
-The p-value is 1.568e-11 and is greater than .05. The null hypothesis can be accepted.
+The p-value is 1 and is greater than .05. The null hypothesis can be accepted.
 
-![lot 1 ttest](https://user-images.githubusercontent.com/99093289/172079703-17ba6455-0b18-4cdc-9449-d732ee5ca438.PNG)
+![lot 1 ttest](https://user-images.githubusercontent.com/99093289/172970622-eb3df915-bcb1-4b26-9bf8-309552649ca3.PNG)
+
 
 ### Lot 2
-The p-value is .0005911 and is not significant. The null hypothesis can be rejected. 
+The p-value is .6072 and issignificant. The null hypothesis can be accepted. 
 
-![lot 2 ttest](https://user-images.githubusercontent.com/99093289/172079768-b556dc44-896a-43dc-923f-16d7e5532abb.PNG)
+![lot 2 ttest](https://user-images.githubusercontent.com/99093289/172970633-5c5c85e2-aad8-469f-9c00-32109a38ca90.PNG)
 
 ### Lot 3
-The p-value is .1589 and is significant. The null hypothesis can be accepted. 
+The p-value is .04168 and is not significant. The null hypothesis can be rejected. 
 
-![lot 3 ttest](https://user-images.githubusercontent.com/99093289/172079822-ef58fffb-a751-49ad-83fe-273ed3675931.PNG)
+![lot 3 ttest](https://user-images.githubusercontent.com/99093289/172970641-5e2e831c-fe9c-45d0-a448-a97cdb8fc6d0.PNG)
 
 ## Study Design: MechaCar vs Competition
 MechaCard should test highway fuel efficiency. Are MechaCars as fuel efficient as the competitor? The null hypothesis would be, "do MechCars average more miles per gallon than the competitor?". This would be tested with a t-test because it will tell us if there is a statisitical difference in the means for the average fuel efficiency. The data we would need is the distance travelled per unit volume of fuel used.
